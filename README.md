@@ -1,15 +1,17 @@
 ## OOP Java Project: Railway Ticket Booking System
 
-Code includes all the Object-Oriented concepts:</br></br>
-<ul>
-  <li><h4>Class and Object:</h4> Use array of Objects, constructor</li>
-  <li><h4>Inheritance:</h4> IS-A relationship between class.[Dynamic Method Dispatch-if
-possible]</li>
-  <li><h4>Encapsulation:</h4> Class bound with access
-specifier(public/private/protected/default)</li>
-  <li><h4>Polymorphism:</h4> Method overloading and Method Overriding</li>
-  <li><h4>Abstraction:</h4> Implement Abstract class with abstract method and also implement
-interface in java.</li>
-  <li><h4>Keyword:</h4> use static, this, final</li>
-  <li><h4>Exception Handling:</h4> Handle runtime error through custom exception.</li>
-</ul>
+<h3>Problem Statement:</h3>
+You are designing and implementing a system to enable users to book train tickets through
+a command prompt. In other words, you are working for IRCTC to implement the
+train reservation system.
+</br></br>
+<h4>Object-Oriented Concepts in Java</h4>
+    <ul>
+        <li><strong>Class and Object:</strong> Use array of Objects, constructor</li>
+        <li><strong>Inheritance:</strong> IS-A relationship between class. (Dynamic Method Dispatch if possible)</li>
+        <li><strong>Encapsulation:</strong> Class bound with access specifier (public/private/protected/default)</li>
+        <li><strong>Polymorphism:</strong> Method overloading and Method Overriding</li>
+        <li><strong>Abstraction:</strong> Implement Abstract class with abstract method and also implement interface in Java.</li>
+        <li><strong>Keyword Usage:</strong> Use <code>static</code>, <code>this</code>, <code>final</code></li>
+        <li><strong>Exception Handling:</strong> Handle runtime errors through custom exception.</li>
+    </ul>
