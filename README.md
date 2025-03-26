@@ -1,17 +1,42 @@
-## OOP Java Project: Railway Ticket Booking System
+# Railway Ticket Booking System
 
-<h3>Problem Statement:</h3>
-You are designing and implementing a system to enable users to book train tickets through
-a command prompt. In other words, you are working for IRCTC to implement the
-train reservation system.
-</br></br>
-<h4>Object-Oriented Concepts in Java</h4>
-    <ul>
-        <li><strong>Class and Object:</strong> Use array of Objects, constructor</li>
-        <li><strong>Inheritance:</strong> IS-A relationship between class. (Dynamic Method Dispatch if possible)</li>
-        <li><strong>Encapsulation:</strong> Class bound with access specifier (public/private/protected/default)</li>
-        <li><strong>Polymorphism:</strong> Method overloading and Method Overriding</li>
-        <li><strong>Abstraction:</strong> Implement Abstract class with abstract method and also implement interface in Java.</li>
-        <li><strong>Keyword Usage:</strong> Use <code>static</code>, <code>this</code>, <code>final</code></li>
-        <li><strong>Exception Handling:</strong> Handle runtime errors through custom exception.</li>
-    </ul>
+## Overview
+This Java-based Railway Ticket Booking System allows users to book train tickets, manage train details, and allocate seats dynamically. It follows object-oriented programming principles such as:
+- **Inheritance** (Coach subclasses for different types of coaches)
+- **Abstraction** (Abstract class `Coach` to define common functionality)
+- **Encapsulation** (Private fields with public getter methods)
+
+## Features
+- **Train and Coach Management**: Add multiple trains and coach types dynamically.
+- **Coach Types**: Sleeper, 3-Tier AC, 2-Tier AC, 1st Class AC.
+- **Seat Allocation**: Dynamically allocates available seats to passengers.
+- **Fare Calculation**: Calculates ticket price based on distance and coach type.
+- **PNR Generation**: Generates a unique PNR for each booked ticket.
+- **Train Availability Display**: Shows available trains and seat availability.
+
+## Technologies Used
+- **Core Java**
+- **Java Collections Framework (List, Map, ArrayList, HashMap)**
+- **Scanner Class for User Input**
+
+## How to Run
+1. **Install Java Development Kit (JDK).**
+2. **Compile the project using:**
+   ```sh
+   javac RailwayTicketBookingSystem.java
+   ```
+3. **Run the project with:**
+   ```sh
+   java RailwayTicketBookingSystem
+   ```
+4. **Follow the on-screen instructions to book tickets.**
+
+## Future Enhancements
+- **Database Integration**: Store booking records persistently.
+- **Graphical User Interface (GUI)**: Improve the user experience.
+- **Cancellation & Refund System**: Allow users to cancel tickets and get refunds.
+- **Dynamic Pricing**: Implement demand-based ticket pricing.
+
+---
+**Author**: Ronit Savaliya</br>
+**License**: MIT License
