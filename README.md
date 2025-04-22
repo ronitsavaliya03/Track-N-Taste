@@ -30,13 +30,7 @@ This Java-based Railway Ticket Booking System allows users to book train tickets
    java RailwayTicketBookingSystem
    ```
 4. **Follow the on-screen instructions to book tickets.**
-
-## Future Enhancements
-- **Database Integration**: Store booking records persistently.
-- **Graphical User Interface (GUI)**: Improve the user experience.
-- **Cancellation & Refund System**: Allow users to cancel tickets and get refunds.
-- **Dynamic Pricing**: Implement demand-based ticket pricing.
-
+5. 
 ---
 **Author**: Ronit Savaliya</br>
 **License**: MIT License
