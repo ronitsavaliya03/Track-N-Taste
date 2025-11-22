@@ -32,5 +32,4 @@ This Java-based Railway Ticket Booking System allows users to book train tickets
 4. **Follow the on-screen instructions to book tickets.**
 
 ---
-**Author**: Ronit Savaliya</br>
-**License**: MIT License
+**Author**: Ronit Savaliya
